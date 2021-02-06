@@ -31,3 +31,5 @@ ENV   CRON_IN_DOCKER true
 EXPOSE $PORT
 
 CMD ["supervisord", "-c", "/etc/supervisord.conf"]
+
+RUN   apk --no-cache add --update python3 py3-pip git
