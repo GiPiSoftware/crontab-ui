@@ -113,5 +113,9 @@ Like the project? [Buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s
 ### Contribute
 Fork Crontab UI and contribute to it. Pull requests are encouraged.
 
+docker build -t <tag> .
+
+docker push <repository>
+
 ### License
 [MIT](LICENSE.md)
